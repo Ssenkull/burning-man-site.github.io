@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    margin-right: 69px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item__link{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+}
+
+.menu-item__link:hover{
+    color: blue;
+    transition: all 0.5s;
+}
+
+.tel:hover{
+    color: blue;
+    transition: all 0.5s;
+}
+
+.menu-item{
+    margin-right: 40px;
+}
+
+.tel{
+    font-size: 17px;
+    text-transform: uppercase;;
+    margin-left: auto;
+}
+
+.nav{
+    display: flex;
+    padding-top: 55px;
+    align-items: center;
+}
+
+.offer{
+    margin-top: 216px;
+}
+
+.offer__title{
+    color: #fff;
+    font-size: 100px;
+    line-height: 147px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+
+.offer__text{
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+
+.btn{
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+    transition: all .3s;
+}
+
+h2{
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p{
+    font-family: serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left, .desc-right{
+    width: 567px;
+}
+
+section{
+    padding-top: 113px;
+}
+
+.gallery{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    font-size: 15px;
+    font-family: serif;
+    display: flex;
+    padding: 114px 0;
+}
+
+.footer-text p{
+    margin-right: 60px;
+}
